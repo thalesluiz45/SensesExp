@@ -1,0 +1,178 @@
+*,html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+}
+
+.top-header{
+  height: 120vh;
+  background: linear-gradient(rgba(74, 51, 88, 0.705), transparent) ,url(css/imagens/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-header h1{
+  width: 490px;
+  margin: 10rem auto 1rem;
+  text-align: center;
+  font-size: 7rem;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+  border-bottom: 2px solid white;
+}
+
+.top-header p{
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.top-nav{
+  border-bottom: 1px solid white;
+  margin: auto;
+  width: 600px;
+}
+
+.top-nav ul{
+  right: 0.3125rem;
+  text-align: center;
+}
+
+.top-nav li{
+  margin: .5rem 4rem;
+  display: inline-block;  
+}
+
+.top-nav a{
+  text-decoration: none;
+  color: white;
+  padding: .5rem 1.4rem;
+  transition: background .5s;
+}
+
+.top-nav a:hover{
+  background: #8571A0;
+}
+
+.top-section{
+  text-align: center;
+  margin-top: 0;
+}
+
+.mid-section {
+  margin: 5rem 10rem;
+  position: relative;
+  height: 70rem;
+}
+
+.mid-article{
+  border-radius: 5px;
+  position: absolute;
+  width: 25%;
+  margin: 5rem 8rem;
+  padding: 300px 8px 8px;
+  transition: box-shadow .5s;
+}
+
+.mid-content{
+  text-align: center;
+}
+
+.article1{
+  background: url(css/imagens/phone1.jpg) no-repeat;
+  background-position: top center;
+  background-size: 300px;
+  top: 0;
+  left: 0;
+}
+
+
+.article2{
+  background: url(css/imagens/phone2.jpg) no-repeat;
+  background-position: top center;
+  background-size: 300px;
+  padding: 300px 8px 8px ;
+  right: 0;
+  top: 0;
+}
+
+.article3{
+  background: url(css/imagens/phone3.jpg) no-repeat;
+  background-position: top center;
+  background-size: 300px;
+  padding: 300px 8px 8px ;
+  left: 0;
+  bottom: 0;
+}
+
+.article4{
+  background: url(css/imagens/phone4.jpg) no-repeat;
+  background-position: top center;
+  background-size: 300px;
+  padding: 300px 8px 8px ;
+  right: 0;
+  bottom: 0;
+}
+
+.article1:hover{
+  box-shadow: 0 0 1em #F0541C;
+}
+
+.article2:hover{
+  box-shadow: 0 0 1em #9C1FC8;
+}
+
+.article3:hover{
+  box-shadow: 0 0 1em #23B0E3;
+}
+
+.article4:hover{
+  box-shadow: 0 0 1em #4601E8;
+}
+
+.hidden{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  display: block;
+}
+
+.footer{
+  background: #24122ba9;
+  text-align: center;
+  padding-bottom: 1.2rem;
+}
+
+.footer [class^="icon"]{
+  font-size: 2rem;
+}
+
+.footer p{
+  margin: 1.2rem 0 1rem;
+}
+
+.footer-menushare{
+  background: linear-gradient(black,transparent);
+  padding: 2.2rem 0 0;
+}
+
+.footer-menushare li{
+  display: inline-block;
+  margin: 0 3rem;
+  padding: 0;
+}
+
+.footer-menushare a{
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+}
+
